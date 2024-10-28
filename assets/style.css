@@ -44,7 +44,8 @@ header nav li a::before {
 }
 @media screen and (min-width: 756px) {
     header {
-        background-position: center;
+        background: rgb(180,180,198);
+        background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
     }
     
 }
@@ -56,9 +57,12 @@ main {
     padding: 2em 1em;
     margin-bottom:1.5em ;
 }
-@media  screen and (max-width: 756px){
+@media  screen and (min-width: 756px){
     main {
-        
+        background-color: #da4444;
+    box-shadow: 0 3px 3px #00ff62;
+    padding: 8em 1em;
+    margin-bottom:1.5em ;
     }
     
 }
